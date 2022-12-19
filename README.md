@@ -11,3 +11,7 @@ While the game is in a more-than-playable state, it remains unfinished. This mod
 This repository holds the second step of development, which is to reimagine each of the worlds as unique places with individually significant and different gameplay elements, along with UI improvements and overhauls to major game mechanics.
 
 Contributions welcome.
+
+
+
+#I don't know what to do help please

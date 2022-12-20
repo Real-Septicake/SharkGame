@@ -17,14 +17,18 @@ Contributions welcome.
 # I don't know what to do help please
 
 I want to add a "tropical" world to Shark Game, which will likely add axolotls as the new species as well as new materials, as my contribution to a game I fell in love with years ago. Only time will tell if I will be able to pull this off, wish me luck 
+
 -Septicake
 
 ## The "Plan"
 
 1. Figure out what editor to use for this, as I've never done a browser game before (in progress, I think)
 2. Add the world type and important details
+
 2a. Come up with the description of the world as it will display for scouting, and for normal visits
+
 2b. Decide what resources will and will not be present
+
 2c. Decide what, if any, modifiers the world will have
 3. Add axolotls and relevant materials
 4. Add art(?)

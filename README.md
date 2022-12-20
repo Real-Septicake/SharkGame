@@ -30,5 +30,7 @@ I want to add a "tropical" world to Shark Game, which will likely add axolotls a
 2b. Decide what resources will and will not be present
 
 2c. Decide what, if any, modifiers the world will have
+
 3. Add axolotls and relevant materials
+
 4. Add art(?)

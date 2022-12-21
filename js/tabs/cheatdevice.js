@@ -1,8 +1,8 @@
 "use strict";
 SharkGame.CheatsAndDebug = {
     tabId: "cheats",
-    tabDiscovered: false,
-    tabSeen: false,
+    tabDiscovered: true,
+    tabSeen: true,
     tabName: "Cheaty Powers",
     tabBg: "img/bg/bg-gate.png",
 

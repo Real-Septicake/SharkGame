@@ -422,7 +422,6 @@ SharkGame.WorldTypes = {
         entry: "Not entirely sure how a saltwater shark is able to survive in freshwater, but hey, plotholes are part of the fun... probably.",
         style: "default",
         absentResources: [
-            "knowledge",
             "tar",
             "ice",
             "heater",
@@ -431,14 +430,16 @@ SharkGame.WorldTypes = {
             "octopus",
         ],
         modifiers: [{ type: "multiplier", modifier: "planetaryResourceBoost", resource: "fish", amount: 1.5 }],
-        gateType: "slots",
-        gateCosts: {
-            fish: 1,
-            sand: 1,
-            crystal: 1,
-            kelp: 1,
-            seaApple: 1,
-            sharkonium: 1,
+        //gateType: "slots",
+        gateRequirements: {
+            slots: {
+                fish: 1,
+                sand: 1,
+                crystal: 1,
+                //kelp: 1,
+                seaApple: 1,
+                sharkonium: 1,
+            },
         },
     },
 };

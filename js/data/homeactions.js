@@ -4317,6 +4317,12 @@ SharkGame.HomeActions = {
             },
             prereq: {},
             cost: {},
+            outcomes: [
+                "worm time"
+            ],
+            multiOutcomes: [
+                "hehe, worms"
+            ],
             helpText: "Use your natural shark prowess to find and catch a worm.",
         },
 
@@ -4333,7 +4339,7 @@ SharkGame.HomeActions = {
                 },
             },
             cost: [
-                {resource: "worm" , costFunction: "constant", priceIncrease: 5 },
+                {resource: "worm" , costFunction: "linear", priceIncrease: 5 },
             ],
             max: "axolotl",
             outcomes: [

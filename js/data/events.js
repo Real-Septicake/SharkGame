@@ -4,6 +4,7 @@
 // events will allow miscellaneous behavior to be organized into a single object
 // miscellaneous behavior is anything which does not belong in the core game loop.
 // Toby: Then why is it running in the core game loop?
+// Septicake: That is a damn good question
 // this has the same purpose of the modifier system: flexibility while retaining performance and organization.
 //
 // events have triggers; they are very rigid, so we also need a system with which to trigger them

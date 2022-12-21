@@ -1078,6 +1078,27 @@ SharkGame.ResourceTable = {
         forceIncome: true,
     },
 
+    //TROPICAL, I hope
+
+    worm:{
+        name: "worms",
+        singleName: "worm",
+        desc: "Wriggling creatures... gross.",
+        color: "#FF6BF5",
+        value: 20,
+    },
+
+    axolotl: {
+        name: "axolotls",
+        singleName: "axolotl",
+        desc: "Little dudes.",
+        color: "#FC9EFF",
+        income: {
+            worm: 1,
+        },
+        value: 2000,
+    },
+
     // SPECIALISTS
 
     /* prospector: {
@@ -1347,7 +1368,7 @@ SharkGame.ResourceCategories = {
             "Was it something they said?",
             "Are you happy with what you've done?",
         ],
-        resources: ["shark", "ray", "crab", "shrimp", "lobster", "dolphin", "whale", "chimaera", "octopus", "eel", "squid", "urchin"],
+        resources: ["shark", "ray", "crab", "shrimp", "lobster", "dolphin", "whale", "chimaera", "octopus", "eel", "squid", "urchin", "axolotl"], 
     },
     animals: {
         name: "Animals",
@@ -1360,7 +1381,7 @@ SharkGame.ResourceCategories = {
             "Do you think the aim of the game is to make the numbers go DOWN?!",
             "Sure hope you know what you're doing here.",
         ],
-        resources: ["fish", "seaApple", "sponge", "jellyfish", "clam"],
+        resources: ["fish", "seaApple", "sponge", "jellyfish", "clam", "worm"],
     },
     stuff: {
         name: "Materials",
@@ -1562,7 +1583,7 @@ SharkGame.InternalCategories = {
         resources: ["calcinium", "seabedStripper", "calciniumConverter", "clamScavenger"],
     },
     basicmaterials: {
-        resources: ["fish", "sand", "crystal", "science", "junk"],
+        resources: ["fish", "sand", "crystal", "science", "junk", "worm"],
     },
     kelpstuff: {
         resources: ["kelp", "seaApple"],

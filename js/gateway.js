@@ -6,7 +6,7 @@ SharkGame.Gateway = {
     transitioning: false,
     selectedWorld: "",
 
-    allowedWorlds: ["abandoned", "haven", "frigid", "shrouded", "marine", "volcanic"],
+    allowedWorlds: ["abandoned", "haven", "frigid", "shrouded", "marine", "volcanic", "tropical"],
 
     completedWorlds: [],
 
@@ -1199,6 +1199,8 @@ SharkGame.Gateway.PresenceFeelings = {
     eel: "slithering hunters?",
     tar: "something dirty?",
     algae: "something slimy?",
+    axolotl: "lil critters?",
+    worm: "small, wiggly creatures",
     // swordfish: "wary hunters",
 };
 
@@ -1317,6 +1319,9 @@ SharkGame.Gateway.Messages = {
             "Tell me: Where do you see the line between friend and food? The urchins are as simple-minded as the fish.",
             "Do you wonder who the squid look up to?",
             "Do you wonder who built the great machine?",
+        ],
+        tropical: [
+            "girl hell if I know",
         ],
     },
     loss: [

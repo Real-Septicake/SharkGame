@@ -4298,6 +4298,53 @@ SharkGame.HomeActions = {
             helpText: "Pick a spot and set up a coral farm there.",
         },
     },
+    tropical: {
+
+        catchFish: {},
+
+        getShark: {},
+
+        debugbutton: {},
+
+        getWorm: {
+            name: "Pull worm.",
+            effect: {
+                resource: {
+                    get worm() {
+                        return SharkGame.Aspects.apotheosis.level > 0 ? SharkGame.Aspects.apotheosis.level * 4 : 1;
+                    }
+                }
+            },
+            prereq: {},
+            cost: {},
+            helpText: "Use your natural shark prowess to find and catch a worm.",
+        },
+
+        getAxolotl: {
+            name: "Hire an axolotl.",
+            effect: {
+                resource: {
+                    axolotl: 1,
+                },
+            },
+            prereq: {
+                resource: {
+                    worm: 5,
+                },
+            },
+            cost: [
+                {resource: "worm" , costFunction: "constant", priceIncrease: 5 },
+            ],
+            max: "axolotl",
+            outcomes: [
+                "You got an axolotl, now what?"
+            ],
+            multiOutcomes: [
+                "A lotta axolotl"
+            ],
+            helpText: "Hire an axolotl to help you sift through the mud for worms",
+        },
+    },
 };
 
 SharkGame.HomeActionCategories = {

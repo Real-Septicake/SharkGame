@@ -3723,4 +3723,28 @@ SharkGame.Upgrades = {
             },
         }, */
     },
+    tropical: {
+
+        crystalBite: {},
+
+        crystalSpade: {},
+
+        seabedGeology: {},
+
+        crystalContainer: {},
+
+        wormCatching: {
+            name: "Worm Catching",
+            desc: "The mud below us seems to shift at times. Let's see if we can figure out the cause.",
+            researchedMessage: "Turns out, the things causing the mud to move are just some tiny creatures. They're very slimy... yuck.",
+            effectDesc: 
+                "The tiny, icky things that move below the mud apparently aren't that smart, even members of the frenzy as large as sharks can sneak up and grab them... not that they want to.",
+            cost: {
+                sand: 2e3,
+            },
+            required: {
+                upgrades: ["seabedGeology"],
+            }
+        },
+    },
 };

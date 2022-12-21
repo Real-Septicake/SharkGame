@@ -471,6 +471,18 @@ SharkGame.Home = {
             }, */
             // another one: "the maw of the gate opens"
         ],
+
+        tropical: [
+            {
+                name: "tropical-start",
+                message: "not sure how you can survive in freshwater, but hey",
+            },
+            {
+                name: "tropical-worm",
+                unlock: { upgrade: ["wormCatching"] },
+                message: "Oh god they're so slimy and squirmy and I hate it get it awAY FROM ME",
+            }
+        ],
         /*
         {
             message:

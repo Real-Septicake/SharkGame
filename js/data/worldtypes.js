@@ -428,15 +428,14 @@ SharkGame.WorldTypes = {
             "chimaera",
             "squid",
             "octopus",
+            "coral",
         ],
         modifiers: [{ type: "multiplier", modifier: "planetaryResourceBoost", resource: "fish", amount: 1.5 }],
-        //gateType: "slots",
         gateRequirements: {
             slots: {
                 fish: 1,
                 sand: 1,
                 crystal: 1,
-                //kelp: 1,
                 seaApple: 1,
                 sharkonium: 1,
             },

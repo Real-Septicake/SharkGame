@@ -4306,8 +4306,14 @@ SharkGame.HomeActions = {
 
         debugbutton: {},
 
+        getManta: {},
+
+        getCrab: {},
+        
+        getScientist: {},
+
         getWorm: {
-            name: "Pull worm.",
+            name: "Pull worm",
             effect: {
                 resource: {
                     get worm() {
@@ -4315,7 +4321,9 @@ SharkGame.HomeActions = {
                     }
                 }
             },
-            prereq: {},
+            prereq: {
+                upgrade: ["wormCatching"],
+            },
             cost: {},
             outcomes: [
                 "worm time"
@@ -4362,7 +4370,7 @@ SharkGame.HomeActionCategories = {
 
     basic: {
         name: "Basic",
-        actions: ["catchFish", "debugbutton", "prySponge", "getClam", "getJellyfish"],
+        actions: ["catchFish", "debugbutton", "prySponge", "getClam", "getJellyfish", "getWorm"],
     },
 
     frenzy: {
@@ -4380,6 +4388,7 @@ SharkGame.HomeActionCategories = {
             "getOctopus",
             "getSquid",
             "getUrchin",
+            "getAxolotl",
         ],
     },
 

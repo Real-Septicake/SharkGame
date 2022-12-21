@@ -1204,7 +1204,7 @@ SharkGame.Gateway.PresenceFeelings = {
     tar: "something dirty?",
     algae: "something slimy?",
     axolotl: "lil critters?",
-    worm: "small, wiggly creatures",
+    worm: "small, wiggly creatures?",
     // swordfish: "wary hunters",
 };
 

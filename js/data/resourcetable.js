@@ -1078,13 +1078,13 @@ SharkGame.ResourceTable = {
         forceIncome: true,
     },
 
-    //TROPICAL, I hope
+    // TROPICAL, I hope
 
     worm:{
         name: "worms",
         singleName: "worm",
         desc: "Wriggling creatures... gross.",
-        color: "#FF6BF5",
+        color: "#E660DD",
         value: 20,
     },
 
@@ -1092,7 +1092,7 @@ SharkGame.ResourceTable = {
         name: "axolotls",
         singleName: "axolotl",
         desc: "Little dudes.",
-        color: "#FC9EFF",
+        color: "#E38EE6",
         income: {
             worm: 1,
         },

@@ -4302,16 +4302,6 @@ SharkGame.HomeActions = {
 
         catchFish: {},
 
-        getShark: {},
-
-        debugbutton: {},
-
-        getManta: {},
-
-        getCrab: {},
-        
-        getScientist: {},
-
         getWorm: {
             name: "Pull worm",
             effect: {
@@ -4334,8 +4324,16 @@ SharkGame.HomeActions = {
             helpText: "Use your natural shark prowess to find and catch a worm.",
         },
 
+        getShark: {},
+
+        debugbutton: {},
+
+        getManta: {},
+
+        getCrab: {},
+
         getAxolotl: {
-            name: "Hire an axolotl.",
+            name: "Axolotl get",
             effect: {
                 resource: {
                     axolotl: 1,
@@ -4343,11 +4341,11 @@ SharkGame.HomeActions = {
             },
             prereq: {
                 resource: {
-                    worm: 5,
+                    worm: 10,
                 },
             },
             cost: [
-                {resource: "worm" , costFunction: "linear", priceIncrease: 5 },
+                { resource: "worm" , costFunction: "linear", priceIncrease: 10 },
             ],
             max: "axolotl",
             outcomes: [
@@ -4357,6 +4355,38 @@ SharkGame.HomeActions = {
                 "A lotta axolotl"
             ],
             helpText: "Hire an axolotl to help you sift through the mud for worms",
+        },
+
+        getScientist: {},
+
+        getNurse: {},
+
+        getMaker: {},
+
+        getBrood: {},
+
+        getExcavator: {
+            name: "Gear up Excavator",
+            effect: {
+                resource: {
+                    axolotlExcavator: 1,
+                },
+            },
+            prereq: {
+                upgrade: ["axolotlExcavation"],
+            },
+            cost: [
+                { resource: "axolotl", costFunction: "constant", priceIncrease: 1 },
+                { resource: "crystal", costFunction: "linear", priceIncrease: 50 },
+            ],
+            max: "axolotlExcavator",
+            outcomes: [
+                "Yet another axolotl geared up",
+            ],
+            multiOutcomes: [
+                "These things will not stop complaining",
+            ],
+            helpText: "Have an axolotl gather something other than those slimy worms",
         },
     },
 };

@@ -3746,5 +3746,62 @@ SharkGame.Upgrades = {
                 upgrades: ["seabedGeology"],
             }
         },
+
+        axolotlBiology: {
+            name: "Axolotl Biology",
+            desc: "What even are these things? They kinda just showed up.",
+            researchedMessage: "Still have no idea what they are, but they seem to be pretty... showy about their methods.",
+            effectDesc:
+                "Well, I suppose we know how these things create more of themselves now... didn't really have a choice in the matter, to be honest.",
+            cost: {
+                science: 35e2,
+                worm: 15e2,
+            },
+            required: {
+                upgrades: ["biology", "axolotlExcavation"],
+            },
+        },
+
+        axolotlExcavation: {
+            name: "Axolotl Excavation",
+            desc: "These guys just appeared, so we might as well give them some work.",
+            researchedMessage: "They were surpisingly cooperative once they finished complaining.",
+            effectDesc:
+                "We managed to get some gear onto these weird critters, so now they can gather sand and kelp, which is great for us! Apparently they call themselves axolotls, interesting.",
+            cost: {
+                science: 750
+            },
+            required: {
+                upgrades: ["agriculture"],
+            },
+        },
+
+        kelpHorticulture: {
+            name: "Kelp Horticulture",
+            desc: "Determine what it takes to plant kelp all over the seabed. Maybe this is useful.",
+            researchedMessage: "The axolotls are surpisingly efficient when it comes to farming kelp.",
+            effectDesc: "Axolotl excavators are now twice as effiecient, thanks to the new kelp farming methods we devised.",
+            cost: {
+                science: 1500,
+                sand: 2000,
+            },
+            required: {
+                upgrades: ["agriculture","axolotlExcavation"],
+                resources: ["kelp"],
+            },
+            effect: {
+                incomeMultiplier: {
+                    axolotlExcavator: 2,
+                },
+            },
+        },
+
+        sunObservation: {},
+
+        agriculture: {},
+
+        underwaterChemistry: {},
+
+        biology: {},
     },
 };

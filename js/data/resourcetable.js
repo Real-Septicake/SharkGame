@@ -1095,9 +1095,21 @@ SharkGame.ResourceTable = {
         color: "#E38EE6",
         income: {
             worm: 1,
+            sand: 2,
         },
         value: 2000,
     },
+
+    axolotlExcavator: {
+        name: "axolotl excavators",
+        singleName: "axolotl excavator",
+        desc: "The ceaseless collectors",
+        color: "#FFFFFF",
+        income: {
+            kelp: 1,
+            sand: 5,
+        },
+    }
 
     // SPECIALISTS
 

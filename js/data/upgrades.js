@@ -3759,6 +3759,7 @@ SharkGame.Upgrades = {
             },
             required: {
                 upgrades: ["biology", "axolotlExcavation"],
+                seen: ["worm", "axolotl"],
             },
         },
 
@@ -3773,6 +3774,7 @@ SharkGame.Upgrades = {
             },
             required: {
                 upgrades: ["agriculture"],
+                seen: ["worm", "axolotl"],
             },
         },
 
@@ -3803,5 +3805,7 @@ SharkGame.Upgrades = {
         underwaterChemistry: {},
 
         biology: {},
+
+        rayBiology: {},
     },
 };

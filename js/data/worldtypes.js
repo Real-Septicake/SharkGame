@@ -440,5 +440,6 @@ SharkGame.WorldTypes = {
                 sharkonium: 1,
             },
         },
+        par: 60,
     },
 };

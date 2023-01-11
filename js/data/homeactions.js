@@ -4366,7 +4366,7 @@ SharkGame.HomeActions = {
         getBrood: {},
 
         getExcavator: {
-            name: "Gear up Excavator",
+            name: "Gear up excavator",
             effect: {
                 resource: {
                     axolotlExcavator: 1,
@@ -4377,7 +4377,7 @@ SharkGame.HomeActions = {
             },
             cost: [
                 { resource: "axolotl", costFunction: "constant", priceIncrease: 1 },
-                { resource: "crystal", costFunction: "linear", priceIncrease: 50 },
+                { resource: "crystal", costFunction: "linear", priceIncrease: 30 },
             ],
             max: "axolotlExcavator",
             outcomes: [
@@ -4387,6 +4387,30 @@ SharkGame.HomeActions = {
                 "These things will not stop complaining",
             ],
             helpText: "Have an axolotl gather something other than those slimy worms",
+        },
+
+        getBreeder: {
+            name: "Find a breeder",
+            effect: {
+                resource: {
+                    axolotlBreeder: 1,
+                },
+            },
+            prereq: {
+                upgrade: ["axolotlBiology"],
+            },
+            cost: [
+                { resource: "axolotl", costFunction: "constant", priceIncrease: 1 },
+                { resource: "worm", costFunction: "linear", priceIncrease: 20 },
+            ],
+            max: "axolotlBreeder",
+            outcomes: [
+                "It wasn't that hard to find one",
+            ],
+            multiOutcomes: [
+                "They're a little too eager if you ask me",
+            ],
+            helpText: "Yoteth",
         },
     },
 };

@@ -1109,7 +1109,17 @@ SharkGame.ResourceTable = {
             kelp: 1,
             sand: 5,
         },
-    }
+    },
+
+    axolotlBreeder: {
+        name: "axolotl breeders",
+        singleName: "axolotl breeder",
+        desc: "They don't shut up",
+        color: "#FFFFFF",
+        income: {
+            axolotl: .02,
+        },
+    },
 
     // SPECIALISTS
 
